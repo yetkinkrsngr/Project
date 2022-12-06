@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body,
+html {
+    color: #a9adb8;
+    background-color: #0a101e;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-menu {
+
+    width: 100%;
+    height: 65px;
+    display: inline-flex;
+    position: fixed;
+    background-color: #050a16;
+    
+}
+
+.leftside {
+    width: 350px;
+    height: 65px;
+
+
+}
+
+#pic-move {
+    width: 149px;
+    height: 40px;
+
+    margin-top: 12px;
+    margin-left: 100px;
+}
+
+.midside {
+    width: 700px;
+    height: 40px;
+
+    padding-top: 25px;
+}
+
+.midside a {
+    text-decoration: none;
+    color: #fdfeff;
+    margin-left: 45px;
+    margin-top: 16px;
+}
+
+.rightside {
+    width: 350px;
+    color: #fdfeff;
+
+}
+.right-phone{
+    color: #fdfeff;
+    width: 35px;
+    height: 35px;
+
+    position: relative;
+    top: 13px;
+}
+.nnumber{
+    position: relative;
+    left: 75px;
+    bottom: 17px;
+    font-size: larger;
+}
+.center{
+    width: 100%;
+    height: 2500px;
+    border: 1px solid purple;
+
+}
+.medcon{
+    width: 100%;
+    height: 950px;
+    display:flex;
+
+}
+.medhalf{
+    width: 49%;
+    height: 93%;
+    display: inline;
+    text-align: left;
+    position: relative;
+    top: 65px;
+
+    padding-left: 12px;
+    text-align: center;
+
+}
+#medhalf-text{
+
+    font-size: 55px;
+    color:#FEC544; 
+    padding-top: 250px;
+}
+#medhalf-text-2{
+font-size: 100px;
+color:#ffffff;
+}
+#medhalf-text-3{
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+}
+#medhalf-but{
+    width: 130px;
+    height: 60px;
+    border-radius: 25px; 
+    font-weight: bolder;
+    background-color: #FEC544;   
+}
+#medhalf-but-link{
+    text-decoration: none;
+    color: #0a101e;
+}
+#medhalf-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+.center-text-head{
+    width: 99.5%;
+    height: 70px;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 24px;
+    padding-top: 35px;
+    font-weight: bolder;
+    color: #FEC544;
+    display: block;
+    border: 1px solid white;
+}
